@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+.bg-primary {
+    background-color:#E14631 !important;
+}
+.bg-black {
+    background:#313638;
+}
+.color-primary {
+    color:#E14631;
+}
+.color-white {
+    color:white;
+}
+.box-title h1 {
+    color:white;
+}
+.box-title h1, .montserrat-bold {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.box-title h2, .montserrat-light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.bandeau {
+    background-color:#E14631 !important;
+    height:250px;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    z-index:1;
+}
+.photo-profil img {
+    width:auto;
+    height:300px;
+    position:relative;
+    top:10px;
+    right:50px;
+    z-index:2;
+}
+ul.none {
+    list-style: none;
+}
+ul li.trait::before {
+    content:"- ";
+}
+ul > li > a {
+    text-decoration: underline;
+}
+@media (min-width:992px) {
+    .box-title h1 {
+        font-size:4rem;
+        position:relative;
+        left:-100px;
+    }
+    .box-title h2 {
+        font-size:5rem;
+        position:relative;
+        left:-100px;
+    }
+}
+@media (min-width:768px) {
+    .box-title h1 {
+        font-size:3rem;
+    }
+    .box-title h2 {
+        font-size:2rem;
+    }
+    .box-title h1, .box-title h2 {
+        position:relative;
+        left:-50px;
+    }
+    .bg-primary h1 {
+        padding-top:0px;
+    }
+    .bandeau {
+        height:200px;
+    }
+    .photo-profil img {
+        width:250px;
+        height:auto;
+        position:relative;
+        left:-20px;
+    }
+}
+@media (max-width:767.9px) {
+    .box-title {
+        margin-top:0;
+    }
+    .box-title h1 {
+        font-size:5rem;
+    }
+    .box-title h2 {
+        font-size:3rem;
+    }
+
+    .bandeau {
+        display:none;
+    }
+    .photo-profil img {
+        width:250px;
+        height:auto;
+        position:relative;
+        left:0;
+        top:80px;
+    }
+    .box-title .bandeau {
+        display:block;
+        background-color:#E14631 !important;
+        position:absolute;
+        top:30%;
+        left:0;
+        padding-top:120px;
+        height:500px;
+    }
+    .mobile-profil-professionnel {
+        margin-top:500px !important;
+    }
+    .mobile-experiences-professionelles {
+        margin-top:150px !important;
+    }
+}
+@media (max-width:572px) {
+    .box-title h1 {
+        font-size:4rem;
+    }
+    .box-title h2 {
+        font-size:2rem;
+    }
+    .photo-profil img {
+        width:220px;
+        height:auto;
+        position:relative;
+        top:70px;
+    }
+}
+@media (max-width:460px) {
+    .box-title h1 {
+        font-size:4rem;
+    }
+    .box-title h2 {
+        font-size:1.85rem;
+    }
+}
+
+@media (max-width:360px) {
+    .box-title h1 {
+        font-size:3rem;
+    }
+    .box-title h2 {
+        font-size:1.4rem;
+    }
+}
